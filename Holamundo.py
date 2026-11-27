@@ -1,3 +1,3 @@
 import math
 
-print("hola mundo")
+print("pedaso de cagada")
