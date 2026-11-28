@@ -1,0 +1,8 @@
+Cosas pendietes del programa
+
+- Control de duplicado de unidadades
+    *podria hacer un sistema de replicas de unidad con un nuevo estado o diagnostico
+- Sistema de modificaciones recientes o unidades recien agregadas
+
+-Sistema para crear un csv donde guardar las unidades
+    * y el sistema para que el programa lea y almacene en variables las unidades que ya fueran previamente guardadas
