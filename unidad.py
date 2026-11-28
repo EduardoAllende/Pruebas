@@ -14,19 +14,21 @@ class Unidad:
         self.debug = debug
 
     def mostrar_detalles_de_unidad(self):
+        print("********************************************")
         print(f"Id: {self.id_unidad}")
         print(f"Numero de serie: {self.serial}")
-        print(f"Modelo {self.modelo}")
+        print(f"Modelo: {self.modelo}")
         print(f"Causa Raiz: {self.causa_raiz}")
         print(f"Debug: {self.debug}")
-""""
+        print("*********************************************")
+
     def buscar_unidad(self,busqueda):
         return(
             str(self.id_unidad) == busqueda
             or
             str(self.serial) == busqueda
         )
-
+""""
     def modificar_detalles_de_unidad(self):
         self.mostrar_detalles_de_unidad()
         while True:
